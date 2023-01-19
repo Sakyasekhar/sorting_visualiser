@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Sorting visualizer</title>
+    </head>
+    <body>
+        <h1>Sorting visualizer</h1>
+        
+        <nav>
+            <button id="new_array">new array</button>
+            <div class="range-input">
+                <span id="size" class = "label">Size
+                    <input id ="size_input" type="range" value=50 min="10" max="100" >
+                </span>
+                <span id="speed" class = "label">Speed
+                    <input id="speed_input" type="range" min="20" max="350" value=60 >
+                </span>
+            </div>
+            
+    
+            <ul class="button">
+                <li ><button  id="bubbleSort">Bubble sort</button></li>
+                <li><button  id="selectionSort">Selection sort</button></li>     
+                <li><button  id="insertionSort">Insertion sort</button> </li>     
+                <li><button  id="quickSort">Quick sort</button></li>     
+                <li><button  id="mergeSort">Merge sort</button></li>     
+            </ul>
+        </nav>
+        <div id="all-bars"></div>
+        <script src="js_files/sorting.js"></script>    
+    </body>
+</html>
